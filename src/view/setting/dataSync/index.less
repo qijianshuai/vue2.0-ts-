@@ -1,0 +1,221 @@
+.data-content {
+  padding-top: 30px;
+  .data {
+    display: flex;
+    .left{
+      margin-right: 20px;
+      position: relative;
+      p {
+        margin: 5px 0;
+      }
+      input {
+        width: 260px;
+        height: 40px;
+        padding-left: 10px;
+        margin-right: 10px;
+        border-radius: 4px;
+        font-size: 16px;
+        border: 1px solid #E5E5E5;
+        &:disabled {
+          background-color: #fff;
+        } 
+        &.no-btn{
+          margin-right: 60px;
+        }
+      }
+      #inOrOut {
+        display: none;
+        position: absolute;
+        z-index: 9;
+        li {
+          width: 253px;
+          height: 30px;
+          line-height: 30px;
+          margin-left: 3px;
+          padding-left: 15px;
+          background-color: #E5E5E5;
+          border-bottom: 1px solid #999;
+        }
+      }
+      #sel-node {
+        display: none;
+        position: absolute;
+        z-index: 9;
+        li {
+          width: 253px;
+          height: 30px;
+          line-height: 30px;
+          margin-left: 3px;
+          padding-left: 15px;
+          background-color: #E5E5E5;
+          border-bottom: 1px solid #999;
+        }
+      }
+      #pull-03{
+        position: relative;
+        img {
+          right: 0;
+          top: 16px;
+        }
+      }
+      img {
+        position: absolute;
+        left: 245px;
+        bottom: 16px;
+      }
+      .path{
+        display: flex;
+        .btn{
+          width: 50px;
+          height: 40px;
+          background-color: #EEFFFA;
+          border: 1px solid #00C385;
+          border-radius: 4px;
+          position: relative;
+          #path {
+            width: 50px;
+            height: 40px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+          }
+          img {
+            display: block;
+            position: absolute;
+            left: 25%;
+            top: 48%;
+          }
+        }
+      }
+      .el-select{
+        .el-input__inner {
+          // width: 260px;
+          padding: 0;
+          padding-left: 10px;
+          box-sizing: content-box;
+        }
+        .el-input__suffix{
+          right: 12px;
+        }
+      }
+
+    }
+    .right {
+      position: relative;
+      p {
+        margin: 5px 0;
+      }
+      input {
+        width: 260px;
+        padding-left: 10px;
+        height: 40px;
+        border-radius: 4px;
+        font-size: 16px;
+        border: 1px solid #E5E5E5;
+        &:disabled {
+          background-color: #fff;
+        } 
+        &.no-btn{
+          margin-right: 60px;
+        }
+      }
+      .pass {
+        display: flex;
+        .btn{
+          width: 90px;
+          height: 40px;
+          line-height: 40px;
+          background-color: #00C385;
+          border-radius: 1px 4px 4px 0px;
+          text-align: center;
+          color: #fff;
+          font-size: 14px;
+        }
+      }
+      #is-channel {
+        display: none;
+        position: absolute;
+        z-index: 9;
+        li {
+          width: 268px;
+          height: 30px;
+          background-color: #E5E5E5;
+          border-bottom: 1px solid #999;
+        }
+      }
+      img {
+        position: absolute;
+        left: 245px;
+        bottom: 16px;
+      }
+
+    }
+  }
+  .no-tmp{
+    .path{
+      display: flex;
+      .btn{
+        width: 50px;
+        height: 40px;
+        background-color: #EEFFFA;
+        border: 1px solid #00C385;
+        border-radius: 4px;
+        position: relative;
+        #path2 {
+          width: 50px;
+          height: 40px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0;
+        }
+        img {
+          display: block;
+          position: absolute;
+          left: 25%;
+          top: 48%;
+        }
+      }
+    }
+    input {
+      width: 500px;
+      height: 40px;
+      padding-left: 10px;
+      margin-right: 10px;
+      border-radius: 4px;
+      font-size: 16px;
+      border: 1px solid #E5E5E5;
+      &:disabled {
+        background-color: #fff;
+      } 
+      &.no-btn{
+        margin-right: 60px;
+      }
+    }
+
+  }
+  .btns{
+    margin-top: 20px;
+    button{
+      cursor: pointer;
+      width: 98px;
+      height: 40px;
+      background: #D6FFF2;
+      border-radius: 4px;
+      border: none;
+      color: #00C385;
+      margin-right: 20px;
+      &.determine{
+        color: #fff;
+        background-color: #00C385;
+      }
+      &:active {
+        opacity: 0.8;
+      }
+      &:focus {
+        outline: none
+      }
+    }
+  }
+}

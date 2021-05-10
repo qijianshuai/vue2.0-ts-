@@ -1,0 +1,125 @@
+main {
+  height: 100%;
+  .hand-sear {
+    width: 100%;
+    height: 40px;
+    padding: 20px 0;
+    overflow: hidden;
+    .system {
+      float: right;
+      padding: 0 20px;
+      margin-right: 20px;
+      border: 1px solid #56BF8A;
+      border-radius: 4px;
+      height: 40px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      color: #56BF8A;
+      img {
+        width: 17px;
+        height: 17px;
+        margin-right: 5px;
+      }
+    }
+  }
+  .hand-content {
+    height: 76vh;
+    display: flex;
+    position: relative;
+    width: 100%;
+    .hand-left {
+      width: 70%;
+    }
+    .hand-right {
+      width: 30%;
+      height: 100%;
+      flex: 1;
+      font-size: 14px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      background-color: #F9FAFB;
+      overflow: auto;
+      padding: 5px;
+      .title {
+        color: #333;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 15px 0 25px 10px;
+        i {
+          display: inline-block;
+          width: 4px;
+          height: 14px;
+          background: #56BE8A;
+          border: 0px solid #56BF8A;
+        }
+      }
+      .item {
+        margin-bottom: 10px;
+        white-space: nowrap;
+        padding-left: 5px;
+        .time {
+          color: #777777;
+        }
+        .content {
+          color: #333333;
+        }
+      }
+  
+    }
+    .video1 {
+      width: 100%;
+      height: 600px;
+    }
+    .top {
+      display: block;
+      width: 98%;
+      height: 80%;
+    }
+    .right{
+      position: absolute;
+      bottom: 0;
+      width: 306px;
+      height: 84px;
+        img {
+          cursor: pointer;
+          position: relative;
+          z-index: 20;
+          // &:active {
+          //   display: none;
+          // }
+        }
+        .active {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 306px;
+          height: 84px;
+          line-height: 84px;
+          background-color:#00C37C;
+          border-radius: 14px;
+          text-align: center;
+          color: #FFFFFF;
+          font-size: 24px;
+          font-family: PingFang SC;
+        }
+    }
+    .flow{
+      cursor: pointer;
+      position: absolute;
+      bottom: 10px;
+      left: 380px;
+      font-size: 24px;
+      color: #00C285;
+      width: 130px;
+      height: 72px;
+      line-height: 72px;
+      text-align: center;
+      border: 1px solid #00C385;
+      border-radius: 14px 14px 14px 14px;
+      font-family: PingFang SC;
+      font-weight: bold;
+    }
+  }
+
+}

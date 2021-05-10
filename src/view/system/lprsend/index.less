@@ -1,0 +1,67 @@
+main{
+  height: 100%;
+  .serach {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    .st {
+      font-size: 14px;
+      counter-reset: #333;
+      input {
+        border: 1px solid #e5e5e5;
+        border-radius: 4px;
+        height: 36px;
+        width: 250px;
+        padding-left: 5px;
+        margin-left: 5px;
+      }
+    }
+    .system {
+      padding: 0 20px;
+      margin-right: 20px;
+      border: 1px solid #56BF8A;
+      border-radius: 4px;
+      height: 40px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      color: #56BF8A;
+      img {
+        width: 17px;
+        height: 17px;
+        margin-right: 5px;
+      }
+    }
+  }
+  .lpr-content {
+    display: flex;
+    height: 90%;
+    .art-cont {
+      flex: 1;
+      font-size: 14px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      background-color: #F9FAFB;
+      overflow: auto;
+      padding: 5px;
+      .item {
+        margin-bottom: 10px;
+        white-space: nowrap;
+        height: 60px;
+        .time {
+          color: #777777;
+          line-height: 30px;
+        }
+        .content {
+          color: #333333;
+          line-height: 30px;
+        }
+      }
+    } 
+    img {
+      width: 40%;
+      margin-right: 40px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.system-wrap {
+  width: 100%;
+  height: 86.75vh;
+  display: flex;
+  justify-content: space-between;
+  aside {
+    width: 20%;
+    height: 100%;
+    margin-right: 2%;
+    ul {
+      height: 100%;
+      overflow: auto;
+      li {
+        background-color: #f5f5f5;
+        height: 7.8vh;
+        line-height: 7.8vh;
+        text-align: center;
+        span {
+          color: #333;
+          font-size: 18px;
+          font-weight: 700;
+        }
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+        &.active {
+          height: 16.55vh;
+          background-color: #56BE8A;
+          box-sizing: border-box;
+          padding-top: 4.5vh;
+          span {
+            color: #fff;
+          }
+        }
+        &.active-after {
+          background-color: #CBF5E0;
+        }
+      }
+    }
+  }
+  article {
+    width: 78%;
+    flex: 1;
+    background-color: #fff;
+  }
+}

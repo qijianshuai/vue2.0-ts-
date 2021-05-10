@@ -1,0 +1,80 @@
+main {
+  height: 100%;
+  .ic-card {
+    display: flex;
+    height: 100%;
+    .ic-left {
+      width: 70%;
+      .ic-in {
+        display: flex;
+      }
+      .ic-out {
+        display: flex;
+        flex-wrap: wrap;
+        div {
+          width: 50%;
+        }
+      }
+      p {
+        cursor: pointer;
+        width: 226px;
+        height: 40px;
+        margin: 20px auto;
+        line-height: 40px;
+        background: #EEFFFA;
+        border: 1px solid #00C385;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #00C385;
+        text-align: center;
+        &:hover{
+          background: #C9F7E9;
+        }
+      }
+      .red {
+        border:  1px solid red;
+        border-radius: 5px;
+        .el-input__inner:focus {
+          border:  1px solid red;
+        }
+      }
+      .rd {
+        margin: 15px 0;
+      }
+    }
+    .ic-right {
+      height: 100%;
+      flex: 1;
+      font-size: 14px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      background-color: #F9FAFB;
+      overflow: auto;
+      padding: 5px;
+      .title {
+        color: #333;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 15px 0 25px 10px;
+        i {
+          display: inline-block;
+          width: 4px;
+          height: 14px;
+          background: #56BE8A;
+          border: 0px solid #56BF8A;
+        }
+      }
+      .item {
+        margin-bottom: 10px;
+        white-space: nowrap;
+        padding-left: 5px;
+        .time {
+          color: #777777;
+        }
+        .content {
+          color: #333333;
+        }
+      }
+    }
+  }
+}
