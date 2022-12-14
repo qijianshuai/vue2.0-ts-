@@ -23,7 +23,7 @@
     "electron-log": "^4.3.4",
     "electron-store": "^7.0.3",
     "element-ui": "^2.15.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-ws": "^4.0.0",
     "fluent-ffmpeg": "^2.1.2",
     "moment": "^2.29.1",
